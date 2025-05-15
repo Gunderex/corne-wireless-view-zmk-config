@@ -49,10 +49,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp B  &kp L            &kp D            &kp W              &kp Z           &kp UNDERSCORE  &kp F               &kp O             &kp U             &kp J     &kp BSPC
-&kp CAPS   &kp N  &hml LEFT_ALT R  &hml LEFT_GUI T  &hml LEFT_SHIFT S  &hml LCTRL G    &hmr RCTRL Y    &hmr RIGHT_SHIFT H  &hmr RIGHT_GUI A  &hml RIGHT_ALT E  &kp I     &kp SEMICOLON
-&kp LSHFT  &kp Q  &kp X            &kp M            &kp C              &kp V           &kp K           &kp P               &kp PERIOD        &kp KP_MINUS      &kp FSLH  &kp ESC
-                                   &kp LGUI         &mo 1              &kp SPACE       &kp RET         &mo 2               &kp RALT
+&hml ESCAPE TILDE  &kp B  &kp L            &kp D            &kp W              &kp Z           &hmr UNDER APOS  &kp F               &kp O                     &kp U                     &kp J                 &kp BSPC
+&kp TAB            &kp N  &hml LEFT_ALT R  &hml LEFT_GUI T  &hml LEFT_SHIFT S  &hml LCTRL G    &hmr RCTRL Y     &hmr RIGHT_SHIFT H  &hmr RIGHT_GUI A          &hml RIGHT_ALT E          &kp I                 &kp SEMICOLON
+&kp CAPS           &kp Q  &kp X            &kp M            &kp C              &kp V           &kp K            &kp P               &hmr GREATER_THAN PERIOD  &hmr DOUBLE_QUOTES MINUS  &hmr LESS_THAN SLASH  &kp COMMA
+                                           &kp LGUI         &mo 1              &kp SPACE       &kp RET          &mo 2               &kp RALT
             >;
         };
 
