@@ -37,6 +37,40 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        L_Bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <7 8>;
+        };
+
+        R_Bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <9 10>;
+        };
+
+        L_Paren {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        R_Paren {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <21 22>;
+        };
+
+        L_Brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <31 32>;
+        };
+
+        R_Brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <33 34>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
