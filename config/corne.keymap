@@ -71,17 +71,17 @@
         };
 
         cut {
-            bindings = <&kp K_CUT>;
+            bindings = <&kp LC(X)>;
             key-positions = <14 15>;
         };
 
         copy {
-            bindings = <&kp K_COPY>;
+            bindings = <&kp LC(C)>;
             key-positions = <15 16>;
         };
 
         paste {
-            bindings = <&kp K_PASTE>;
+            bindings = <&kp LC(V)>;
             key-positions = <27 28>;
         };
     };
@@ -98,7 +98,7 @@
 
             display-name = "Base";
             bindings = <
-&hml ESCAPE GRAVE  &kp B  &kp L            &kp D            &kp W              &kp Z           &hmr UNDER APOS  &kp F               &kp O                  &kp U                     &kp J                    &kp BSPC
+&hml ESCAPE GRAVE  &kp B  &kp L            &kp D            &hml LC(Z) W       &hml LC(Y) Z    &hmr UNDER APOS  &kp F               &kp O                  &kp U                     &kp J                    &kp BSPC
 &kp TAB            &kp N  &hml LEFT_ALT R  &hml LEFT_GUI T  &hml LEFT_SHIFT S  &hml LCTRL G    &hmr RCTRL Y     &hmr RIGHT_SHIFT H  &hmr RIGHT_GUI A       &hml RIGHT_ALT E          &kp I                    &kp SEMICOLON
 &kp CAPS           &kp Q  &kp X            &kp M            &kp C              &kp V           &hmr KP_EQUAL K  &kp P               &hmr LESS_THAN PERIOD  &hmr DOUBLE_QUOTES MINUS  &hmr GREATER_THAN SLASH  &kp COMMA
                                            &kp LGUI         &mo 1              &kp SPACE       &kp RET          &mo 2               &kp RALT
