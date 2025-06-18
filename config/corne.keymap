@@ -114,8 +114,8 @@
 
             display-name = "Lower";
             bindings = <
-&kp ESC     &trans        &trans        &kp K         &trans        &kp CARET       &kp LC(Y)  &hmr F7 NUMBER_7  &hmr F8 NUMBER_8  &hmr F9 NUMBER_9  &kp PLUS         &kp BSPC
-&bt BT_CLR  &trans        &kp H         &kp J         &kp L         &kp DOLLAR      &kp LC(Z)  &hmr F4 NUMBER_4  &hmr F5 NUMBER_5  &hmr F6 NUMBER_6  &kp KP_MINUS     &kp F11
+&kp ESC     &trans        &trans        &kp K         &trans        &kp DOLLAR      &kp LC(Y)  &hmr F7 NUMBER_7  &hmr F8 NUMBER_8  &hmr F9 NUMBER_9  &kp PLUS         &kp BSPC
+&bt BT_CLR  &trans        &kp H         &kp J         &kp L         &kp CARET       &kp LC(Z)  &hmr F4 NUMBER_4  &hmr F5 NUMBER_5  &hmr F6 NUMBER_6  &kp KP_MINUS     &kp F11
 &kp LSHFT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &hmr F1 NUMBER_1  &hmr F2 NUMBER_2  &hmr F3 NUMBER_3  &kp KP_MULTIPLY  &kp F12
                                         &kp LGUI      &trans        &kp SPACE       &kp ENTER  &kp N0            &kp RALT
             >;
@@ -130,8 +130,8 @@
 
             display-name = "Raise";
             bindings = <
-&kp ESC    &kp EXCL  &kp AT    &kp UP    &kp PERCENT  &kp CARET     &kp CARET  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &kp LEFT  &kp DOWN  &kp RIGHT    &kp DOLLAR    &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT  &kp BSLH  &kp GRAVE
+&kp ESC    &kp EXCL  &kp AT    &kp UP    &kp PERCENT  &kp DOLLAR    &kp CARET  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LPAR  &kp RPAR  &kp BSPC
+&kp LCTRL  &trans    &kp LEFT  &kp DOWN  &kp RIGHT    &kp CARET     &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans    &trans    &trans       &trans        &kp PLUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RBRC  &kp PIPE  &kp TILDE
                                &kp LGUI  &trans       &kp SPACE     &kp RET    &trans                &kp RALT
             >;
